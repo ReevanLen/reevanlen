@@ -353,12 +353,7 @@ export default function Home() {
 
               <div className="grid gap-8 lg:grid-cols-2">
                 {[
-                  {
-                    name: 'SkillProof',
-                    description: 'Skillproof verifies uploaded or earned certificates through AI-generated tests.. Built with Next.js, TailwindCSS and MongoDb.',
-                    tags: ['Next.js', 'React', 'TypeScript', 'MongoDb', 'TailwindCSS'],
-                    link: 'https://skillproof.vercel.app',
-                  },
+                  
                   {
                     name: 'ResQNet',
                     description: 'ResQNet enables patient, hospitals and authorities to coordinate with each other and ensures faster response for the road accident victims.',
@@ -370,6 +365,12 @@ export default function Home() {
                     description: 'Aloymni is a platform for alumni to connect with each other and share their knowledge and experiences.',
                     tags: ['Next.js', 'React', 'TypeScript', 'MongoDb', 'TailwindCSS'],
                     link: 'https://aloymni.vercel.app',
+                  },
+                  {
+                    name: 'SkillProof',
+                    description: 'Skillproof verifies uploaded or earned certificates through AI-generated tests.. Built with Next.js, TailwindCSS and MongoDb.',
+                    tags: ['Next.js', 'React', 'TypeScript', 'MongoDb', 'TailwindCSS'],
+                    link: 'https://skillproof.vercel.app',
                   },
                   {
                     name: 'Mobile App Backend',
