@@ -121,7 +121,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between py-5">
             <h1 className="text-2xl font-bold glow-text tracking-tight">
-              Reevan Len Pereira
+              RP
             </h1>
             <div className="hidden items-center gap-12 md:flex">
               <a href="#about" className="text-sm font-medium hover:text-primary transition-all duration-500 interactive relative group">
