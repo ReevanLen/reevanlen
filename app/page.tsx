@@ -83,7 +83,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-hidden">
       {/* Custom Cursor */}
-      <div 
+      {/* <div 
         className="fixed pointer-events-none z-[9999] mix-blend-difference transition-all duration-150"
         style={{
           left: `${cursorPos.x}px`,
@@ -99,7 +99,7 @@ export default function Home() {
       </div>
       
       {/* Cursor Follower */}
-      <div 
+      {/* <div 
         className="fixed pointer-events-none z-[9998] mix-blend-difference transition-all duration-700 ease-out"
         style={{
           left: `${cursorFollower.x}px`,
@@ -112,7 +112,7 @@ export default function Home() {
             isHovering ? 'w-16 h-16 opacity-30' : 'w-10 h-10 opacity-50'
           }`}
         />
-      </div>
+      </div> */} 
 
       <ProfessionalBackground />
 
@@ -175,7 +175,7 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="overflow-hidden">
                   <p className="text-sm font-semibold text-primary uppercase tracking-[0.3em] animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-                    LEARN. BUILD. GET PLACED.
+                    Hello, My name is
                   </p>
                 </div>
                 
