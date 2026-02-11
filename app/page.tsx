@@ -26,7 +26,7 @@ export default function Home() {
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
       setCursorPos({ x: e.clientX, y: e.clientY })
-      
+
       // Smooth follower with delay
       setTimeout(() => {
         setCursorFollower({ x: e.clientX, y: e.clientY })
@@ -112,7 +112,7 @@ export default function Home() {
             isHovering ? 'w-16 h-16 opacity-30' : 'w-10 h-10 opacity-50'
           }`}
         />
-      </div> */} 
+      </div> */}
 
       <ProfessionalBackground />
 
@@ -178,27 +178,27 @@ export default function Home() {
                     Hello, My name is
                   </p>
                 </div>
-                
+
                 <div className="overflow-hidden">
                   <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold leading-[1.1] tracking-tight animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
                     <span className="block mb-2">Reevan Len</span>
                     <span className="glow-text">Pereira</span>
                   </h1>
                 </div>
-                
+
                 <div className="overflow-hidden">
                   <p className="text-2xl text-primary font-semibold animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
                     Full Stack Developer
                   </p>
                 </div>
               </div>
-              
+
               <div className="overflow-hidden">
                 <p className="text-lg text-muted-foreground leading-relaxed max-w-xl animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
                   Passionate about building elegant, scalable web applications. I transform complex problems into beautiful, user-centric solutions that deliver real impact.
                 </p>
               </div>
-              
+
               <div className="flex flex-wrap items-center gap-5 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
                 <Button size="lg" className="interactive gap-2 bg-primary hover:bg-primary/90 text-white px-8 py-6 text-base font-semibold rounded-xl shadow-2xl shadow-primary/40 transition-all duration-500 hover:scale-105 hover:shadow-primary/60">
                   <a href="#projects">View My Work</a>
@@ -208,7 +208,7 @@ export default function Home() {
                   <a href="#contact">Contact Me</a>
                 </Button>
               </div>
-              
+
               <div className="flex items-center gap-8 pt-6 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
                 <Link href="https://github.com/reevanlen" target="_blank" className="interactive text-muted-foreground hover:text-primary transition-all duration-500 hover:scale-125 transform">
                   <Github className="w-7 h-7" />
@@ -227,19 +227,19 @@ export default function Home() {
               <div className="relative w-[450px] h-[450px]">
                 {/* Glow effect */}
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/30 to-accent/30 rounded-full blur-3xl animate-glow-pulse" />
-                
+
                 {/* Main container */}
                 <div className="relative w-full h-full bg-gradient-to-br from-primary/10 to-accent/10 rounded-full border-[6px] border-primary flex items-center justify-center shadow-2xl shadow-primary/30 overflow-hidden group transition-all duration-700 hover:scale-105 hover:border-[8px] interactive">
                   {/* Rotating gradient overlay */}
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 group-hover:rotate-180 transition-transform duration-[3000ms]" />
-                  
+
                   {/* Image */}
-                  <Image 
-                    src="/reevan.png" 
-                    width={420} 
-                    height={420} 
-                    alt="Reevan Len Pereira" 
-                    className="relative z-10 rounded-full transition-all duration-700 group-hover:scale-110" 
+                  <Image
+                    src="/reevan.png"
+                    width={420}
+                    height={420}
+                    alt="Reevan Len Pereira"
+                    className="relative z-10 rounded-full transition-all duration-700 group-hover:scale-110"
                   />
                 </div>
 
@@ -257,7 +257,7 @@ export default function Home() {
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-1/2 right-0 w-96 h-96 bg-primary/10 rounded-full blur-[120px]" />
         </div>
-        
+
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
           <AnimatedSection animation="fade-in-up">
             <div className="space-y-16">
@@ -266,16 +266,16 @@ export default function Home() {
                   <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
                   <span className="text-sm font-semibold text-primary uppercase tracking-wider">My Intro</span>
                 </div>
-                
+
                 <h2 className="text-5xl sm:text-6xl font-bold leading-tight">
                   About <span className="glow-text">Me</span>
                 </h2>
-                
+
                 <p className="text-xl text-muted-foreground leading-relaxed">
                   Passionate and detail-oriented Computer Science student with a strong foundation in Python and Full Stack Web Development. A quick learner specializing in Data Science, focused on creating clean, efficient, and user-friendly solutions. Eager to contribute to innovative projects, collaborate with dynamic teams, and grow professionally.
                 </p>
               </div>
-              
+
               <div className="grid gap-6 sm:grid-cols-1 lg:grid-cols-2 max-w-5xl mx-auto">
                 <AnimatedSection animation="slide-in-left" delay={0.2}>
                   <Card className="interactive glow-border bg-card/30 backdrop-blur-sm p-6 sm:p-8 h-full hover:bg-card/50 transition-all duration-700 cursor-pointer group hover:-translate-y-2">
@@ -286,7 +286,7 @@ export default function Home() {
                         </div>
                         <h3 className="text-2xl sm:text-3xl font-bold">Education</h3>
                       </div>
-                      
+
                       <div className="space-y-5">
                         <div className="border-l-4 border-primary pl-4 sm:pl-6 hover:pl-6 sm:hover:pl-8 transition-all duration-300">
                           <p className="font-bold text-lg sm:text-xl mb-2">Bachelor of Computer Applications</p>
@@ -300,7 +300,7 @@ export default function Home() {
                     </div>
                   </Card>
                 </AnimatedSection>
-                
+
                 <AnimatedSection animation="slide-in-right" delay={0.3}>
                   <Card className="interactive glow-border bg-card/30 backdrop-blur-sm p-6 sm:p-8 h-full hover:bg-card/50 transition-all duration-700 cursor-pointer group hover:-translate-y-2">
                     <div className="space-y-6">
@@ -310,7 +310,7 @@ export default function Home() {
                         </div>
                         <h3 className="text-2xl sm:text-3xl font-bold">Certifications</h3>
                       </div>
-                      
+
                       <div className="space-y-5">
                         <div className="border-l-4 border-primary pl-4 sm:pl-6 hover:pl-6 sm:hover:pl-8 transition-all duration-300">
                           <p className="font-bold text-lg sm:text-xl mb-2">Data Science</p>
@@ -336,7 +336,7 @@ export default function Home() {
           <div className="absolute top-0 left-1/4 w-96 h-96 bg-accent/10 rounded-full blur-[120px]" />
           <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-primary/10 rounded-full blur-[100px]" />
         </div>
-        
+
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
           <AnimatedSection animation="fade-in-up">
             <div className="space-y-16">
@@ -345,28 +345,31 @@ export default function Home() {
                   <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
                   <span className="text-sm font-semibold text-primary uppercase tracking-wider">Featured Work</span>
                 </div>
-                
+
                 <h2 className="text-5xl sm:text-6xl font-bold leading-tight">
                   Recent <span className="glow-text">Projects</span>
                 </h2>
               </div>
-              
+
               <div className="grid gap-8 lg:grid-cols-2">
                 {[
                   {
                     name: 'SkillProof',
                     description: 'Skillproof verifies uploaded or earned certificates through AI-generated tests.. Built with Next.js, TailwindCSS and MongoDb.',
                     tags: ['Next.js', 'React', 'TypeScript', 'MongoDb', 'TailwindCSS'],
+                    link: 'https://skillproof.vercel.app',
                   },
                   {
                     name: 'ResQNet',
                     description: 'ResQNet enables patient, hospitals and authorities to coordinate with each other and ensures faster response for the road accident victims.',
                     tags: ['React', 'Next.js', 'PostgreSQL', 'Supabase', 'Real-time'],
+                    link: 'https://kenet.vercel.app',
                   },
                   {
                     name: 'Aloymni',
                     description: 'Aloymni is a platform for alumni to connect with each other and share their knowledge and experiences.',
                     tags: ['Next.js', 'React', 'TypeScript', 'MongoDb', 'TailwindCSS'],
+                    link: 'https://aloymni.vercel.app',
                   },
                   {
                     name: 'Mobile App Backend',
@@ -375,6 +378,8 @@ export default function Home() {
                   },
                 ].map((project, i) => (
                   <AnimatedSection key={i} animation="scale-in" delay={i * 0.15}>
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="block h-full">
+
                     <Card className={`interactive glow-border bg-card/30 backdrop-blur-sm p-6 sm:p-8 group hover:bg-card/50 transition-all duration-700 h-full cursor-pointer hover:-translate-y-3 hover:shadow-2xl hover:shadow-primary/20`}>
                       <div className="space-y-4">
                         <div className="flex items-start justify-between">
@@ -385,15 +390,15 @@ export default function Home() {
                             <ExternalLink className="w-5 h-5 text-primary" />
                           </div>
                         </div>
-                        
+
                         <p className="text-muted-foreground text-base leading-relaxed">
                           {project.description}
                         </p>
-                        
+
                         <div className="flex flex-wrap gap-2 pt-2">
                           {project.tags.map((tag, idx) => (
-                            <span 
-                              key={tag} 
+                            <span
+                              key={tag}
                               className="interactive text-xs px-3 py-2 rounded-lg bg-secondary/50 text-muted-foreground hover:bg-primary/20 hover:text-primary hover:scale-110 transition-all duration-500 font-medium"
                               style={{ transitionDelay: `${idx * 50}ms` }}
                             >
@@ -403,6 +408,7 @@ export default function Home() {
                         </div>
                       </div>
                     </Card>
+                    </a>
                   </AnimatedSection>
                 ))}
               </div>
@@ -416,7 +422,7 @@ export default function Home() {
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/10 rounded-full blur-[120px]" />
         </div>
-        
+
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
           <AnimatedSection animation="fade-in-up">
             <div className="space-y-16">
@@ -425,12 +431,12 @@ export default function Home() {
                   <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
                   <span className="text-sm font-semibold text-primary uppercase tracking-wider">Expertise</span>
                 </div>
-                
+
                 <h2 className="text-5xl sm:text-6xl font-bold leading-tight">
                   Skills & <span className="glow-text">Technologies</span>
                 </h2>
               </div>
-              
+
               <div className="grid gap-8 md:grid-cols-2 max-w-5xl mx-auto">
                 {[
                   {
@@ -465,11 +471,11 @@ export default function Home() {
                             </div>
                             <h3 className="text-2xl sm:text-3xl font-bold">{skillGroup.category}</h3>
                           </div>
-                          
+
                           <div className="flex flex-wrap gap-2">
                             {skillGroup.skills.map((skill, idx) => (
-                              <span 
-                                key={skill} 
+                              <span
+                                key={skill}
                                 className="interactive px-3 sm:px-4 py-2 rounded-lg bg-secondary/50 text-sm font-medium hover:bg-primary/30 hover:text-primary hover:scale-110 transition-all duration-500"
                                 style={{ transitionDelay: `${idx * 50}ms` }}
                               >
@@ -493,7 +499,7 @@ export default function Home() {
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-1/3 right-0 w-96 h-96 bg-accent/10 rounded-full blur-[120px]" />
         </div>
-        
+
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
           <AnimatedSection animation="fade-in-up">
             <div className="space-y-16">
@@ -502,12 +508,12 @@ export default function Home() {
                   <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
                   <span className="text-sm font-semibold text-primary uppercase tracking-wider">Career Path</span>
                 </div>
-                
+
                 <h2 className="text-5xl sm:text-6xl font-bold leading-tight">
                   Achievements <span className="glow-text">and Experience</span>
                 </h2>
               </div>
-              
+
               <div className="space-y-8 max-w-4xl mx-auto">
                 {[
                   {
@@ -522,7 +528,7 @@ export default function Home() {
                     period: '2020 - 2022',
                     description: 'Been a part of college project group where we developed a web application which provides a platform for the alumni of the college to connect with each other and share their knowledge and experiences.  ',
                   },
-                  
+
                 ].map((job, i) => (
                   <AnimatedSection key={i} animation="slide-in-left" delay={i * 0.15}>
                     <Card className="interactive glow-border bg-card/30 backdrop-blur-sm p-10 hover:bg-card/50 transition-all duration-700 group cursor-pointer hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/20">
@@ -548,7 +554,7 @@ export default function Home() {
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/10 rounded-full blur-[150px]" />
         </div>
-        
+
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
           <AnimatedSection animation="fade-in-up">
             <div className="space-y-16">
@@ -557,16 +563,16 @@ export default function Home() {
                   <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
                   <span className="text-sm font-semibold text-primary uppercase tracking-wider">Let's Connect</span>
                 </div>
-                
+
                 <h2 className="text-5xl sm:text-6xl font-bold leading-tight">
                   Get In <span className="glow-text">Touch</span>
                 </h2>
-                
+
                 <p className="text-xl text-muted-foreground leading-relaxed">
                   I'm always interested in hearing about new projects and opportunities. Feel free to reach out via email or connect on social media.
                 </p>
               </div>
-              
+
               <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
                 {[
                   { icon: Mail, label: 'Email', value: 'reevanlen@gmail.com', href: 'mailto:reevanlen@gmail.com' },
@@ -591,7 +597,7 @@ export default function Home() {
                   )
                 })}
               </div>
-              
+
               <AnimatedSection animation="fade-in-up" delay={0.4}>
                 <div className="mx-auto max-w-2xl">
                   <Card className="glow-border bg-card/30 backdrop-blur-sm p-10">
